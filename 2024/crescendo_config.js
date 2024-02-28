@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024txfor", 
+      "defaultValue": "2023txfor", 
       "required": "true"
     },
     { "name": "Match Level",
