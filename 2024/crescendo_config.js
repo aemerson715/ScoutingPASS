@@ -1,11 +1,11 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "148 Plano Scouting 2024TXPLA TEST",
+  "title": "148 Plano Scouting 2024TXPLA",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter Initials TEST",
       "code": "s",
       "type": "scouter",
       "size": 5,
