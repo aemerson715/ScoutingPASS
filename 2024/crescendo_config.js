@@ -77,6 +77,13 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     }
+    { "name": "Auto Ring Pick Up",
+      "code": "as",
+      "type": "clickable_image",
+      "filename": "2024/field_image.png",
+      "clickRestriction": "eight",
+      "shape": "circle 5 black red true"
+    }
   ],
   "teleop": [
     { "name": "Amp Scores",
