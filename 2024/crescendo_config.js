@@ -76,7 +76,7 @@ var config_data = `
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
-    }
+    },
     { "name": "Auto Ring Pick Up",
       "code": "as",
       "type": "clickable_image",
