@@ -83,7 +83,7 @@ var config_data = `
       "filename": "2024/field_image.png",
       "clickRestriction": "eight",
       "shape": "circle 5 black red true",
-    }
+    },
   ],
   "teleop": [
     { "name": "Amp Scores",
