@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "148 Plano Scouting 2024TXPLA",
+  "title": "148 Plano Scouting 2024TXPLA TEST",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
