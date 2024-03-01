@@ -63,11 +63,11 @@ var config_data = `
       "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
       "shape": "circle 5 black red true"
      },
-    { "name": "Auto End Position",
-      "code": "ae",
+    { "name": "Auto Rings Picked Up",
+      "code": "ars",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
-      "clickRestriction": "one",
+      "clickRestriction": "eight",
       "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
       "shape": "circle 5 black red true"
     }
