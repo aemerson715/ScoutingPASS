@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "148 Plano Scouting 2024TXPLA",
+  "title": "148 Plano Scouting",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023txfor", 
+      "defaultValue": "2024txpla", 
       "required": "true"
     },
     { "name": "Match Level",
