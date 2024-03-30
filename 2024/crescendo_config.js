@@ -1,21 +1,21 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "148 Plano Scouting",
+  "title": "148 States Scouting",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials TEST",
+    { "name": "Scouter Initials",
       "code": "s",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Event",
+    { "name": "Event Merc - TXCMP1 Apo - TXCMP2",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024txdal", 
+      "defaultValue": "2024TXCMP", 
       "required": "true"
     },
     { "name": "Match Level",
@@ -92,6 +92,10 @@ var config_data = `
     },
     { "name": "Speaker Scores",
       "code": "tss",
+      "type": "counter"
+    },
+    { "name": "Passes",
+      "code": "pss",
       "type": "counter"
     },
     { "name": "Times Amplified",
