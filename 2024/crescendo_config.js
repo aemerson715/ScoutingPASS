@@ -12,10 +12,10 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Event Merc - TXCMP1 Apo - TXCMP2",
+    { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024TXCMP", 
+      "defaultValue": "2024TXCMP2", 
       "required": "true"
     },
     { "name": "Match Level",
