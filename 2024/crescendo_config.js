@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "148 States Scouting",
+  "title": "148 Worlds Scouting",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024TXCMP2", 
+      "defaultValue": "2024DAL", 
       "required": "true"
     },
     { "name": "Match Level",
