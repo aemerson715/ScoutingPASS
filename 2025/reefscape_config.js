@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST1",
+    { "name": "Scouter Initials - TEST2",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -145,9 +145,10 @@ var config_data = `
       "type":"radio",
       "choices": {
         "bp": "Parked<br>",
-        "ba": "Parked/Failed Climb<br>",
-        "bs": "Shallow Cage<br>",
-        "bd": "Deep Cage<br>",
+        "bh": "Failed High Climb<br>",
+        "bl": "Failed Low Climb<br>",
+        "bs": "High Climb<br>",
+        "bd": "Low Climb<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
