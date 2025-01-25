@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST5",
+    { "name": "Scouter Initials - TEST6",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -80,14 +80,6 @@ var config_data = `
         },
             "defaultValue": "x"
       },
-    { "name": "Coral L3",
-      "code": "ac3",
-      "type": "counter"
-    },
-    { "name": "Coral L4",
-      "code": "ac4",
-      "type": "counter"
-    },
     { "name": "Auto Scoring Position",
       "code": "asp",
       "type": "clickable_image",
