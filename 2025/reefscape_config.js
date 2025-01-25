@@ -70,10 +70,6 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Coral L1",
-      "code": "ac1",
-      "type": "counter"
-    },
     { "name": "Coral L2",
       "code": "ac2",
       "type": "counter"
