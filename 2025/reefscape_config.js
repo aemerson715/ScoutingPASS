@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST3",
+    { "name": "Scouter Initials - TEST4",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -154,8 +154,9 @@ var config_data = `
       "defaultValue": "x"
     }
   ],
-  "postmatch": [
-    { "name": "Attained Coopertition Pt",
+  "endgame": [
+  
+  {"name": "Attained Coopertition Pt",
       "code": "cop",
       "type": "bool"
     },
@@ -165,7 +166,10 @@ var config_data = `
       "min": 0,
       "max": 9,
       "defaultValue": 0
-    },
+    }
+    ]
+  "postmatch": [
+    
     { "name": "Driver Skill",
       "code": "ds",
       "type": "radio",
