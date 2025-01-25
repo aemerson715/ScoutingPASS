@@ -77,9 +77,8 @@ var config_data = `
         "ir": "In Robot<br>",
         "of": "On Floor<br>",
         "x": "Not attempted"
+        }
       },
-      "defaultValue": "x"
-    }
     { "name": "Coral L3",
       "code": "ac3",
       "type": "counter"
