@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST7",
+    { "name": "Scouter Initials - TEST8",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -114,16 +114,26 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
-    { "name": "Pickup From",
+    { "name": "Coral Pickup",
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "s": "Coral Station<br>",
+        "s": "HP Station<br>",
         "f": "Floor<br>",
         "b": "Both<br>",
         "x": "Not Attempted"
       },
-      "defaultValue": "x"
+     "defaultValue": "x"
+    },
+    { "name": "Algae Pickup",
+      "code": "tpu",
+      "type": "radio",
+      "choices": {
+        "s": "Reef<br>",
+        "f": "Floor<br>",
+        "b": "Both<br>",
+        "x": "Not Attempted"
+      },
     },
     { "name": "Scored in<br>Opponent<br>Processor",
       "code": "opp",
