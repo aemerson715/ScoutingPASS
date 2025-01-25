@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST8",
+    { "name": "Scouter Initials - TEST9",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -123,7 +123,7 @@ var config_data = `
         "b": "Both<br>",
         "x": "Not Attempted"
       },
-     "defaultValue": "x"
+       "required":"true"
     },
     { "name": "Algae Pickup",
       "code": "tpu",
@@ -134,11 +134,7 @@ var config_data = `
         "b": "Both<br>",
         "x": "Not Attempted"
       },
-      "required":"true"
-    },
-    { "name": "Scored in<br>Opponent<br>Processor",
-      "code": "opp",
-      "type": "bool"
+      "defaultValue": "x"
     }
   ],
   "endgame": [
