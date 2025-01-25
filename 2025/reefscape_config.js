@@ -167,7 +167,7 @@ var config_data = `
       "max": 9,
       "defaultValue": 0
     }
-    ]
+    ],
   "postmatch": [
     
     { "name": "Driver Skill",
