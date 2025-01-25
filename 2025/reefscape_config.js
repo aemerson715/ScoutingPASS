@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST2",
+    { "name": "Scouter Initials - TEST3",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -70,10 +70,17 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Coral L2",
-      "code": "ac2",
-      "type": "counter"
-    },
+    { 
+    "name": "Reef Algae",
+      "code": "ara",
+      "type":"radio",
+      "choices": {
+        "ir": "In Robot<br>",
+        "of": "On Floor<br>",
+        "x": "Not attempted"
+      },
+      "defaultValue": "x"
+    }
     { "name": "Coral L3",
       "code": "ac3",
       "type": "counter"
