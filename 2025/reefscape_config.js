@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST4",
+    { "name": "Scouter Initials - TEST5",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -170,40 +170,15 @@ var config_data = `
     ],
   "postmatch": [
     
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Defense Rating",
+    { "name": "Defense",
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
+        "b": "Bad<br>",
         "g": "Good<br>",
-        "e": "Excellent<br>",
         "x": "Did not play defense"
       },
       "defaultValue": "x"
-    },
-    { "name": "Speed Rating",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "1 (slow)<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
-        "5": "5 (fast)"
-      },
-      "defaultValue":"3"
     },
     { "name": "Died/Immobilized",
       "code": "die",
@@ -211,19 +186,6 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Dropped Coral (>2)",
-      "code": "dc",
-      "type": "bool"
-    },
-    { "name": "Dropped Algae (>2)",
-      "code": "da",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
       "type": "bool"
     },
     { "name": "Comments",
