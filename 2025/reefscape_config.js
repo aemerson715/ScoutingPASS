@@ -70,17 +70,6 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { 
-    "name": "Reef Algae",
-      "code": "ara",
-      "type":"radio",
-      "choices": {
-        "ir": "In Robot<br>",
-        "of": "On Floor<br>",
-        "x": "Not attempted"
-      },
-      "defaultValue": "x"
-    },
     { "name": "Coral L3",
       "code": "ac3",
       "type": "counter"
