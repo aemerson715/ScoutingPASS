@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST2",
+    { "name": "Scouter Initials - TEST3",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -149,24 +149,6 @@ var config_data = `
         "bl": "Failed Low Climb<br>",
         "bs": "High Climb<br>",
         "bd": "Low Climb<br>",
-        "x": "Not attempted"
-      },
-      "defaultValue": "x"
-    }
-  ],
-  "endgame": [
-    { "name": "Barge Timer",
-      "code": "ebt",
-      "type": "timer"
-    },
-    { "name": "Final Robot Status",
-      "code": "efs",
-      "type":"radio",
-      "choices": {
-        "bp": "Parked<br>",
-        "ba": "Parked/Failed Climb<br>",
-        "bs": "Shallow Cage<br>",
-        "bd": "Deep Cage<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
