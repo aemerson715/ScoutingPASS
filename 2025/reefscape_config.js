@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials - TEST6",
+    { "name": "Scouter Initials - TEST7",
       "code": "s",
       "type": "scouter",
       "size": 5,
@@ -70,6 +70,14 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
+    { "name": "Auto Scoring Position",
+      "code": "asp",
+      "type": "clickable_image",
+      "filename": "2025/reef.png",
+      "dimensions": "6 6",
+      "allowableResponses": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 23 24 25 26 27 28 29 30 31 32 33 34 35 36",
+      "shape": "circle 5 black red true"
+    },
     { "name": "Reef Algae",
       "code": "ara",
       "type":"radio",
@@ -79,23 +87,7 @@ var config_data = `
         "x": "Not attempted"
         },
             "defaultValue": "x"
-      },
-    { "name": "Auto Scoring Position",
-      "code": "asp",
-      "type": "clickable_image",
-      "filename": "2025/reef.png",
-      "dimensions": "6 6",
-      "allowableResponses": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 23 24 25 26 27 28 29 30 31 32 33 34 35 36",
-      "shape": "circle 5 black red true"
-    },
-    { "name": "Processor Score",
-      "code": "aps",
-      "type": "counter"
-    },
-    { "name": "Net Score",
-      "code": "ans",
-      "type": "counter"
-    }
+      }
   ],
   "teleop": [
     { "name": "Coral L1",
