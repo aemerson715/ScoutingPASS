@@ -80,7 +80,7 @@ var config_data = `
         "x": "Not attempted"
       },
       "defaultValue": "x"
-    }
+    },
     { "name": "Coral L3",
       "code": "ac3",
       "type": "counter"
