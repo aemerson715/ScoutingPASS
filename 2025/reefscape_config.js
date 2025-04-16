@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025NEWTON",
+      "defaultValue": "2025new",
       "required": "true"
     },
     { "name": "Match Level",
@@ -161,9 +161,7 @@ var config_data = `
       "type":"radio",
       "choices": {
         "bp": "Parked<br>",
-        "bh": "Failed High Climb<br>",
         "bl": "Failed Low Climb<br>",
-        "bs": "High Climb<br>",
         "bd": "Low Climb<br>",
         "x": "Not attempted"
       },
